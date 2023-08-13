@@ -73,6 +73,7 @@ bitflags! {
         const VIEW_CREATOR_MONETIZATION_ANALYTICS = 1 << 41;
         /// Allows for using soundboard in a voice channel
         const USE_SOUNDBOARD = 1 << 42;
+        const CREATE_GUILD_EXPRESSIONS = 1 << 43;
         /// Allows the usage of custom soundboard sounds from other servers
         const USE_EXTERNAL_SOUNDS = 1 << 45;
         /// Allows sending voice messages
